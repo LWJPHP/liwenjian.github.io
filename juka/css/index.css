@@ -1,0 +1,52 @@
+/* CSS初始化工作 */
+*{
+	margin: 0;
+	padding:0;
+}
+a {
+    text-decoration:none;
+}
+
+/* 定义一个版心 */
+/* .container{
+    width: 1098px;
+    margin: 0 auto;
+    border: 1px solid #000;
+} */
+
+/* header */
+.header .{
+	height: 248px;
+	width: 100%;
+	
+}
+.header .header-top{
+	background: url('../img/di.jpg') no-repeat;
+	background-size: 100% 100%;
+	height: 183px;
+	position: relative;
+}
+.header .header-top .logo{
+	margin-top: 104px;
+	margin-left: -15px ;
+}
+.header .header-top .bz{
+	margin-left: -50px ;
+}
+.header .header-top .tm{
+	margin-top: 115px;
+	margin-left: 0 ;
+}
+.header .header-top .wx{
+	margin-top: 115px;
+	margin-left: 0 ;
+}
+.header .header-top .wb{
+	margin-top: 115px;
+	margin-left: 0 ;
+}
+.header .header-nav{
+	border-top: 2px solid #CEB165;
+	background: url('../img/nav.jpg') no-repeat;
+	background-size: 100% 100%;
+}
